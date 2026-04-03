@@ -17,9 +17,9 @@ making it ideal for transient-heavy signals like music or mechanical data.
 ## 📈 Performance
 By utilizing a **Morlet wavelet basis**, this implementation effectively targets "spiky" artifacts that traditional low-pass filters often smear across the time domain.
 
-## 📖 Usage
-```python
-import pywt
-# Core logic: 1D DWT -> Thresholding -> Reconstruction
-coeffs = pywt.wavedec(data, 'db4', level=2)
-# Apply threshold...
+## 🧪 Results (Demonstration)
+To demonstrate the filter's efficacy on high-pitch interference:
+* **Original:** [(https://github.com/Gio-Reg/highpitch-signal-denoising-wavelet/edit/main/README.md#:~:text=squeek_audio.wav-,squeek_original,-.mp4)] - Notice the high-frequency "hiss" or "spike."
+* **Processed:** [https://github.com/Gio-Reg/highpitch-signal-denoising-wavelet/edit/main/README.md#:~:text=cleaned_squeek_audio.wav-,final_video,-.mp4] - Cleaned via DWT Reconstruction.
+
+The transformation successfully isolated the signal of interest without the "ghosting" effects common in standard FFT-based notch filters.
