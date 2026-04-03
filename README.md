@@ -1,7 +1,5 @@
-# highpitch-signal-denoising-wavelet
-Cleaning sound signals with high frequency spikes. 
-
 # Precision Signal Denoising via Continuous Wavelet Transform (CWT)
+Cleaning sound signals with high frequency spikes. 
 
 A specialized Python utility for cleaning "spiky" non-stationary noise from audio or sensor data. 
 Unlike standard Fourier Transforms, this Wavelet-based approach preserves time-localization, 
