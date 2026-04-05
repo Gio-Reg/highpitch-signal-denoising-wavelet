@@ -1,5 +1,5 @@
 # Precision Signal Denoising via Continuous Wavelet Transform (CWT)
-Cleaning sound signals with high frequency spikes. 
+Cleaning sound signals from high frequency spikes. 
 
 A specialized Python utility for cleaning "spiky" non-stationary noise from audio or sensor data. 
 Unlike standard Fourier Transforms, this Wavelet-based approach preserves time-localization, 
